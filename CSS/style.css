@@ -26,6 +26,7 @@ a{
 
 #body{
     background-color: aliceblue;
+    
 }
 nav{
     padding: 0 80px;
@@ -37,11 +38,13 @@ nav{
 
 #h2{
    font-size: 33px; 
-   color: black;
+   color: rgb(0, 0, 0);
    font-weight: 500;
+   box-shadow: 5px 10px 9px rgb(20, 30, 200);
 }
 nav .links a:not(:last-child) {
     margin-right: 20px;
+    color: rgb(0, 0, 0);
 }
 nav .login buttom{
     padding: 8px 14px;
@@ -56,6 +59,20 @@ nav .login button.signup{
     border-radius: 4px;
     margin-right: 14px;
 }
+p .middle{
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+
+
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 0, 0);
+}
+
+
 
 
 
