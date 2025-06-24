@@ -1,0 +1,46 @@
+ h1{
+    text-align: center;
+}
+#firstimage{
+        border-radius: 15px;
+        padding: 5px;
+        width: 450px;
+        float: left;
+        }
+#first{
+        text-align: left;
+        font-size: 30px;
+        margin: 1px 2px;
+        padding: 1px 2px;
+    }
+.secondimage{
+        border-radius: 20px;
+        padding: 5px;
+        width: 450px;
+        float: right;
+    }
+#second{
+        text-align: left;
+        font-size: 30px;
+    }
+.item, .event {
+  background: #b3b0ae;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#footer{
+  text-align: center;
+  padding: 5px;
+  background-color: #5b3a29;
+  color: white;
+  margin-top: 2rem;
+}
